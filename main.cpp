@@ -50,99 +50,128 @@ arm.flex();                             // 3)
 //  action 3:   the arm rotates conter-clockwise
 arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
-
 //  1)
-//  Noun:
-//  action 1:
+//  Noun: shape
+//  action 1: the shape rotates
+shape.rotate();
 
-//  action 2:
+//  action 2: the shape calculates its area
+shape.calculateArea();
 
-//  action 3:
+//  action 3: the shape resizes
+shape.resize();
 
 //  2)
-//  Noun:
-//  action 1:
+//  Noun: dog
+//  action 1: the dog barks
+dog.bark();
 
-//  action 2:
+//  action 2: the dog bites
+dog.bite();
 
-//  action 3:
+//  action 3: the dog sleeps
+dog.sleep();
 
 //  3)
-//  Noun:
-//  action 1:
+//  Noun: audioPlayer
+//  action 1: the audio player plays
+audioPlayer.play()
 
-//  action 2:
+//  action 2: the audio player pauses
+audioPlayer.pause();
 
-//  action 3:
+//  action 3: the audio player stops
+audioPlayer.stop();
 
 //  4)
-//  Noun:
-//  action 1:
+//  Noun: calendar
+//  action 1: the calendar gets next meeting
+calendar.getNextMeeting();
 
-//  action 2:
+//  action 2: the calendar schedules a meeting
+calendar.scheduleMeeting();
 
-//  action 3:
+//  action 3: the calendar alerts
+calendar.alert();
 
 //  5)
-//  Noun:
-//  action 1:
+//  Noun: warrior
+//  action 1: the warrior choses a weapon
+warrior.chooseWeapon();
 
-//  action 2:
+//  action 2: the warrior aims
+warrior.aim();
 
-//  action 3:
+//  action 3: the warrior fights
+warrior.fight();
 
 //  6)
-//  Noun:
-//  action 1:
+//  Noun: game
+//  action 1: the game starts
+game.start();
 
-//  action 2:
+//  action 2: the game moves to the next turn
+game.nextTurn();
 
-//  action 3:
+//  action 3: the game calculates scores
+game.calculateScore();
 
 //  7)
-//  Noun:
-//  action 1:
+//  Noun: vehicle
+//  action 1: the vehicle moves
+vehicle.move();
 
-//  action 2:
+//  action 2: the vehicle accelerates
+vehicle.accelerate();
 
-//  action 3:
+//  action 3: the vehicle brakes
+vehicle.brake();
 
 //  8)
-//  Noun:
-//  action 1:
+//  Noun: compiler
+//  action 1: the compiler checks the syntax
+compiler.checkSyntax();
 
-//  action 2:
+//  action 2: the compiler checks the semantics
+compiler.checkSemantics();
 
-//  action 3:
+//  action 3: the compiler builds
+compiler.build();
 
 //  9)
-//  Noun:
-//  action 1:
+//  Noun: file
+//  action 1: the file opens
+file.open();
 
-//  action 2:
+//  action 2: the file reads
+file.read();
 
-//  action 3:
+//  action 3: the file writes
+file.write();
 
 //  10)
-//  Noun:
-//  action 1:
+//  Noun: bankAccount
+//  action 1: the bank account withdraws
+bankAccount.withdraw();
 
-//  action 2:
+//  action 2: the bank account deposits
+banckAccount.deposit();
 
-//  action 3:
-
-
+//  action 3: the bank account transfers
+bankAccount.transfer();
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +179,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
