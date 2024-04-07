@@ -128,15 +128,15 @@ vehicle.accelerate();
 vehicle.brake();
 
 //  8)
-//  Noun: compiler
-//  action 1: the compiler checks the syntax
-compiler.checkSyntax();
+//  Noun: projectLeader
+//  action 1: the project leader assigns tasks
+projectLeader.assignTask();
 
-//  action 2: the compiler checks the semantics
-compiler.checkSemantics();
+//  action 2: the proejct leader review code
+projectLeader.reviewCode();
 
-//  action 3: the compiler builds
-compiler.build();
+//  action 3: the project leader approve pull requests
+projectLeader.approvePullRequest();
 
 //  9)
 //  Noun: file
